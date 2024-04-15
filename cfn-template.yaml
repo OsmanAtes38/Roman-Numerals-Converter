@@ -25,7 +25,7 @@ Resources:
     Type: AWS::EC2::SecurityGroup
     Properties:
       GroupDescription: ssh(22) http(80) and custom tcp 8080 # Required
-      GroupName: osvaldo-sg-roman
+      GroupName: osman-sg-roman
       SecurityGroupIngress: 
         - IpProtocol: tcp
           FromPort: 80
